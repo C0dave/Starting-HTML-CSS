@@ -1,0 +1,172 @@
+#Titulo {
+color: rgb(19, 114, 177);
+}
+.Texto {
+    color: blue;
+}
+
+.Especial {
+    color: green;
+}
+.Textoespecial {
+    color: red;
+}
+div p {
+    color: rgb(37, 176, 231);
+}
+div h2,h1 {
+     color:rgb(19, 114, 177) ;
+}
+
+* {
+    font-size: 24px;
+}
+
+/*Este es un comentario*/
+
+/*
+.color{
+    color: #ff0;
+}
+.color{
+    color: rgb(0, 255, 255)
+}
+*/
+.color{
+    /*border: 3px blue outset;
+    border-radius: 100px;
+    
+       dotted
+       dashed
+       solid
+       double
+       groove
+       ridge
+       inset
+       outset
+       none
+       hidden
+    */
+    border-style:solid;
+    border-color: blue ;
+    border-radius: 5px;
+    border-width: 2rem;
+
+}
+
+#fondo {
+    background-color: darkblue;
+    color: white;
+    height: 400px;
+    background-image: url('img/Imagen.png'); 
+    background-size: 200px 200px; /*contain,cover,auto*/
+    background-repeat: repeat-y;/*repeat-x(Horizontal),repeat-y(vertical)*/
+    background-position: center top;
+}
+#margen {
+     background-color: chocolate;
+     margin: 15px;
+     padding: 30px 10px 25px;
+     height: 50px;
+     width: 50px;
+     border-radius: 25px;
+     overflow: hidden;/*hidden, scroll*/
+     color: blue;
+     outline: 2px solid red;
+}
+
+.text {
+    font-family: 'Honk','Roboto';
+    color: rgba(25, 0, 255, 0.767);
+    text-align: center;/*center, left, right, justify(Salto de linea en la pagina cuando se pase el por defecto)*/
+    text-decoration: overline;/*overline, underline, line-through*/
+    text-shadow: 3px 5px 5px black;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color:gray;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: yellow;
+}
+ul {
+    background-color: cyan;
+    list-style-type: none;
+    /*padding-left: 0px;
+        list-style-position: inside;*/
+}
+table {
+   border: solid black 1px;
+   width: 100%;
+   border-collapse: collapse;
+}
+th,td {
+    border: solid black 1px;
+    padding: 5;
+}
+
+th {
+    font-family: 'honk';
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /*display: none;
+    visibility: hidden;*/
+    max-width: 300px;
+    background-color: red;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+
+#Position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.Left {
+    float: left;
+    width: 200PX;   
+    height: 150px;
+}
+.Right {
+    float: right;
+}
+
+.Container {
+    height: 200px;
+}
+.column { 
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+    font-family: 'Roboto';
+}
